@@ -96,6 +96,7 @@ public class ServerApp extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(23, 119, 197));
         jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 255, 255)));
 
+        jPanel8.setBackground(new java.awt.Color(255, 153, 255));
         jPanel8.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
@@ -109,6 +110,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel9.setBackground(new java.awt.Color(255, 153, 255));
         jPanel9.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
@@ -122,6 +124,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel10.setBackground(new java.awt.Color(255, 153, 255));
         jPanel10.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -135,6 +138,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel11.setBackground(new java.awt.Color(255, 153, 255));
         jPanel11.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
@@ -148,6 +152,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel13.setBackground(new java.awt.Color(255, 153, 255));
         jPanel13.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
@@ -161,6 +166,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel14.setBackground(new java.awt.Color(255, 153, 255));
         jPanel14.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
@@ -174,6 +180,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel16.setBackground(new java.awt.Color(255, 153, 255));
         jPanel16.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
@@ -187,6 +194,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel12.setBackground(new java.awt.Color(255, 153, 255));
         jPanel12.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
@@ -200,6 +208,7 @@ public class ServerApp extends javax.swing.JFrame {
             .addGap(0, 90, Short.MAX_VALUE)
         );
 
+        jPanel15.setBackground(new java.awt.Color(255, 153, 255));
         jPanel15.setPreferredSize(new java.awt.Dimension(90, 90));
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
