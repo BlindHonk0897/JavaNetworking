@@ -46,6 +46,7 @@ public class Controller {
             @Override
             public void mouseClicked(MouseEvent e) {
                 servApp.getMessageField().setEditable(true);
+                servApp.getStatus_Label().setText("WAITING FOR CONNECTION....");
                 servApp.getMessageField().addActionListener(new ActionListener(){
                     @Override
                     public void actionPerformed(ActionEvent e) {
