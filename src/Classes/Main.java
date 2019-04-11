@@ -15,14 +15,6 @@ public class Main {
 
    public static void main(String args[]){
        
-//       Server server = new Server();
-//       server.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//       server.setLocationRelativeTo(null);
-//       server.runServer();
-//
-//       Client client = new Client("172.16.8.36");
-//       client.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//       client.setLocationRelativeTo(null);
-//       client.runClient();
+   Controller cont = new Controller();
    }
 }
