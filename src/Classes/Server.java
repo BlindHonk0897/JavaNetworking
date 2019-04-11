@@ -151,4 +151,12 @@ public class Server extends JFrame{
             }
         });
     }
+    public static void main(String args[]){
+       
+       Server server = new Server();
+       server.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+       server.setLocationRelativeTo(null);
+       server.runServer();
+
+   }
 }
