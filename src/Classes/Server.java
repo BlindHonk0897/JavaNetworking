@@ -95,8 +95,7 @@ public class Server extends JFrame{
     private void processConnection() throws IOException{
         String message = "Connection Successful";
         sendData(message);
-        setTextFieldEditable(true);
-        
+        setTextFieldEditable(true);   
         do{
             try{
                 message = (String) input.readObject();
