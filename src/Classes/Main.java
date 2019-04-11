@@ -19,10 +19,10 @@ public class Main {
 //       server.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 //       server.setLocationRelativeTo(null);
 //       server.runServer();
-
-       Client client = new Client("172.16.8.36");
-       client.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-       client.setLocationRelativeTo(null);
-       client.runClient();
+//
+//       Client client = new Client("172.16.8.36");
+//       client.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//       client.setLocationRelativeTo(null);
+//       client.runClient();
    }
 }
