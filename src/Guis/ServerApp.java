@@ -5,6 +5,10 @@
  */
 package Guis;
 
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -17,9 +21,12 @@ import javax.swing.JTextField;
  */
 public class ServerApp extends javax.swing.JFrame {
 
-    /**
-     * Creates new form ServerApp
-     */
+    private ObjectOutputStream output;
+    private ObjectInputStream input;
+    private ServerSocket server;
+    private Socket connection;
+    private int counter;
+    
     public ServerApp() {
         initComponents();
         this.setTitle("SERVER");
@@ -27,101 +34,101 @@ public class ServerApp extends javax.swing.JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
-    public JLabel getBut_StartServer() {
-        return but_StartServer;
-    }
-
-    public void setBut_StartServer(JLabel but_StartServer) {
-        this.but_StartServer = but_StartServer;
-    }
-
-    public JComboBox<String> getCombo_Player() {
-        return combo_Player;
-    }
-
-    public void setCombo_Player(JComboBox<String> combo_Player) {
-        this.combo_Player = combo_Player;
-    }
-
-    public JPanel getPanel_1() {
-        return panel_1;
-    }
-
-    public void setPanel_1(JPanel panel_1) {
-        this.panel_1 = panel_1;
-    }
-
-    public JPanel getPanel_2() {
-        return panel_2;
-    }
-
-    public void setPanel_2(JPanel panel_2) {
-        this.panel_2 = panel_2;
-    }
-
-    public JPanel getPanel_3() {
-        return panel_3;
-    }
-
-    public void setPanel_3(JPanel panel_3) {
-        this.panel_3 = panel_3;
-    }
-
-    public JPanel getPanel_4() {
-        return panel_4;
-    }
-
-    public void setPanel_4(JPanel panel_4) {
-        this.panel_4 = panel_4;
-    }
-
-    public JPanel getPanel_5() {
-        return panel_5;
-    }
-
-    public void setPanel_5(JPanel panel_5) {
-        this.panel_5 = panel_5;
-    }
-
-    public JPanel getPanel_6() {
-        return panel_6;
-    }
-
-    public void setPanel_6(JPanel panel_6) {
-        this.panel_6 = panel_6;
-    }
-
-    public JPanel getPanel_7() {
-        return panel_7;
-    }
-
-    public void setPanel_7(JPanel panel_7) {
-        this.panel_7 = panel_7;
-    }
-
-    public JPanel getPanel_8() {
-        return panel_8;
-    }
-
-    public void setPanel_8(JPanel panel_8) {
-        this.panel_8 = panel_8;
-    }
-
-    public JLabel getStatus_Label() {
-        return status_Label;
-    }
-
-    public void setStatus_Label(JLabel status_Label) {
-        this.status_Label = status_Label;
-    }
-
-    public JTextField getMessageField() {
-        return messageField;
-    }
-
-    public void setMessageField(JTextField messageField) {
-        this.messageField = messageField;
-    }
+//    public JLabel getBut_StartServer() {
+//        return but_StartServer;
+//    }
+//
+//    public void setBut_StartServer(JLabel but_StartServer) {
+//        this.but_StartServer = but_StartServer;
+//    }
+//
+//    public JComboBox<String> getCombo_Player() {
+//        return combo_Player;
+//    }
+//
+//    public void setCombo_Player(JComboBox<String> combo_Player) {
+//        this.combo_Player = combo_Player;
+//    }
+//
+//    public JPanel getPanel_1() {
+//        return panel_1;
+//    }
+//
+//    public void setPanel_1(JPanel panel_1) {
+//        this.panel_1 = panel_1;
+//    }
+//
+//    public JPanel getPanel_2() {
+//        return panel_2;
+//    }
+//
+//    public void setPanel_2(JPanel panel_2) {
+//        this.panel_2 = panel_2;
+//    }
+//
+//    public JPanel getPanel_3() {
+//        return panel_3;
+//    }
+//
+//    public void setPanel_3(JPanel panel_3) {
+//        this.panel_3 = panel_3;
+//    }
+//
+//    public JPanel getPanel_4() {
+//        return panel_4;
+//    }
+//
+//    public void setPanel_4(JPanel panel_4) {
+//        this.panel_4 = panel_4;
+//    }
+//
+//    public JPanel getPanel_5() {
+//        return panel_5;
+//    }
+//
+//    public void setPanel_5(JPanel panel_5) {
+//        this.panel_5 = panel_5;
+//    }
+//
+//    public JPanel getPanel_6() {
+//        return panel_6;
+//    }
+//
+//    public void setPanel_6(JPanel panel_6) {
+//        this.panel_6 = panel_6;
+//    }
+//
+//    public JPanel getPanel_7() {
+//        return panel_7;
+//    }
+//
+//    public void setPanel_7(JPanel panel_7) {
+//        this.panel_7 = panel_7;
+//    }
+//
+//    public JPanel getPanel_8() {
+//        return panel_8;
+//    }
+//
+//    public void setPanel_8(JPanel panel_8) {
+//        this.panel_8 = panel_8;
+//    }
+//
+//    public JLabel getStatus_Label() {
+//        return status_Label;
+//    }
+//
+//    public void setStatus_Label(JLabel status_Label) {
+//        this.status_Label = status_Label;
+//    }
+//
+//    public JTextField getMessageField() {
+//        return messageField;
+//    }
+//
+//    public void setMessageField(JTextField messageField) {
+//        this.messageField = messageField;
+//    }
     
     
 
